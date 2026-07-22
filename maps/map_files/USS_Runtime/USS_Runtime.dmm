@@ -12,19 +12,51 @@
 /turf/open/paraxis/rock/rock3,
 /area/event)
 "ae" = (
-/turf/closed/wall/paraxis/adobe4,
 /area/event)
 "af" = (
-/turf/open/paraxis,
+/obj/effect/overlay/palmtree_r,
+/turf/open/paraxis/rock/rock1,
 /area/event)
 "ag" = (
-/turf/closed/wall/paraxis/adobe3,
-/area/event)
-"ah" = (
-/turf/open/paraxis/rock/rock4,
+/turf/closed/wall/rock/brown{
+	color = "#6e6558"
+	},
 /area/event)
 "ai" = (
-/turf/closed/wall/paraxis/adobe2,
+/obj/effect/overlay/palmtree_r{
+	icon_state = "palm2"
+	},
+/turf/open/paraxis/rock/rock2,
+/area/event)
+"aj" = (
+/turf/open/paraxis/dirt,
+/area/event)
+"ak" = (
+/turf/open/paraxis/dirt/dirt2,
+/area/event)
+"al" = (
+/turf/open/paraxis/rock/rock2,
+/area/event)
+"am" = (
+/turf/open/paraxis/shore/transition/north,
+/area/event)
+"an" = (
+/turf/open/paraxis/shore/transition_corner/northwest,
+/area/event)
+"ao" = (
+/turf/open/gm/river/shallow_ocean_shallow_ocean,
+/area/event)
+"ap" = (
+/turf/open/paraxis/shore/transition/northwest,
+/area/event)
+"aq" = (
+/turf/open/paraxis/shore/transition/west,
+/area/event)
+"ar" = (
+/turf/open/paraxis/shore/transition/southwest,
+/area/event)
+"as" = (
+/turf/open/paraxis/shore/transition_corner/southwest,
 /area/event)
 "bk" = (
 /obj/structure/surface/table/almayer,
@@ -387,7 +419,7 @@
 /area/event)
 "PM" = (
 /obj/docking_port/stationary/emergency_response/port2,
-/turf/open/paraxis/dirt/dirt4,
+/turf/open/paraxis/dirt,
 /area/event)
 "Qs" = (
 /obj/structure/machinery/sleep_console{
@@ -576,9 +608,9 @@ cI
 AN
 AN
 AN
-ai
+ae
 AN
-ag
+ae
 AN
 AN
 AN
@@ -771,179 +803,179 @@ br
 br
 br
 br
-AN
+aj
 AN
 br
 "}
 (17,1,1) = {"
 br
+ao
+ao
+ao
+ao
+ao
+ao
+am
+ab
 ac
-ac
-af
-ac
-ac
-ac
-af
-af
-af
-ae
-ae
 aa
 aa
 aa
-aa
+aj
+aj
+aj
 br
 "}
 (18,1,1) = {"
 br
-ac
-ac
-ac
+ao
+ap
+aq
+ar
+ao
+ap
+an
+ab
+ak
+ab
 aa
-ac
-af
-af
-af
-ae
-ae
-ae
-ae
+aa
 aa
 PM
-aa
+aj
 br
 "}
 (19,1,1) = {"
 br
-ac
-ac
-ac
-aa
-af
-aa
-af
-af
-af
-ae
-af
-ae
-ae
-aa
+ap
+an
 ab
+as
+aq
+an
+ab
+af
+ab
+ab
+aa
+ac
+aa
+aj
+aj
 br
 "}
 (20,1,1) = {"
 br
-ac
-aa
-aa
-aa
-ac
-aa
-aa
-ag
-af
-af
-af
-ae
-af
+an
+ak
+ad
+ak
+ab
+al
+ad
+al
+ak
+al
 ab
 aa
+aa
+aa
+aj
 br
 "}
 (21,1,1) = {"
 br
 ac
-ac
-aa
-aa
-aa
-af
-ac
+ab
+ab
+ad
+al
 ag
-af
-af
+al
+al
+al
+ab
+ak
 aa
 aa
 aa
-aa
-ac
+aj
 br
 "}
 (22,1,1) = {"
 br
-ab
-aa
-ab
-af
-aa
-aa
-aa
+ak
+al
+ak
 ag
+al
+ag
+ag
+al
+al
+al
 af
-aa
-af
-ab
+ak
 aa
 aa
-ab
+aa
 br
 "}
 (23,1,1) = {"
 br
-ad
-ai
-aa
-ai
-aa
-aa
+ak
+ab
+al
 ag
 ag
 ag
 ag
-ae
-aa
-aa
-aa
+ag
+ag
+al
+al
+ab
+ac
+ab
 aa
 br
 "}
 (24,1,1) = {"
 br
-ab
+al
+al
 ai
-ai
-ai
-ai
-ab
-aa
 ag
-ah
 ag
+ag
+ag
+ag
+al
+al
 ab
+ac
+ac
+ac
 aa
-aa
-ab
-ab
 br
 "}
 (25,1,1) = {"
 br
-ad
-ab
-ai
-ai
-aa
-ab
-ab
+al
 ag
-ah
-ah
-ah
+ag
+ag
+ag
+ag
+ag
+ag
+al
+ak
 ab
-ab
-ae
-ad
+ac
+ac
+ac
+ac
 br
 "}
 (26,1,1) = {"

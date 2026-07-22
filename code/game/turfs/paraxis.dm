@@ -6,7 +6,7 @@
 
 //////
 
-	/turf/open/paraxis/dirt
+/turf/open/paraxis/dirt
 	name = "desert"
 	icon_state = "desert1"
 
@@ -39,6 +39,54 @@
 /turf/open/paraxis/rock/rock4
 	icon_state = "rock4"
 
+////
+
+/turf/open/paraxis/shore/transition
+	icon_state = "beach"
+
+/turf/open/paraxis/shore/transition/southwest
+	dir = SOUTHWEST
+
+/turf/open/paraxis/shore/transition/north
+	dir = NORTH
+
+/turf/open/paraxis/shore/transition/east
+	dir = EAST
+
+/turf/open/paraxis/shore/transition/northeast
+	dir = NORTHEAST
+
+/turf/open/paraxis/shore/transition/southeast
+	dir = SOUTHEAST
+
+/turf/open/paraxis/shore/transition/west
+	dir = WEST
+
+/turf/open/paraxis/shore/transition/northwest
+	dir = NORTHWEST
+
+
+////
+
+/turf/open/paraxis/shore/transition_corner
+	icon_state = "beachcorner"
+
+/turf/open/paraxis/shore/transition_corner/northwest
+	dir = NORTHEAST
+
+/turf/open/paraxis/shore/transition_corner/southeast
+	dir = SOUTHEAST
+
+/turf/open/paraxis/shore/transition_corner/northeast
+	dir = NORTHWEST
+
+/turf/open/paraxis/shore/transition_corner/southwest
+	dir = SOUTHWEST
+
+
+
+
+
 
 
 
@@ -48,31 +96,11 @@
 
 
 /turf/closed/wall/paraxis/adobe1
-	icon = 'icons/turf/walls/paraxis/adobe.dmi'
-	icon_state = "wall-0"
-
-/turf/closed/wall/paraxis/adobe2
-	icon = 'icons/turf/walls/paraxis/adobe_1.dmi'
-	icon_state = "wall-0"
-
-/turf/closed/wall/paraxis/adobe3
-	icon = 'icons/turf/walls/paraxis/adobe_2.dmi'
-	icon_state = "wall-0"
-
-/turf/closed/wall/paraxis/adobe4
-	icon = 'icons/turf/walls/paraxis/adobe_3.dmi'
-	icon_state = "wall-0"
+	icon = 'icons/turf/walls/paraxis/adobe_walls.dmi'
+	icon_state = "adobe"
 
 
 
 
 
-/*/turf/closed/wall/paraxis/adobe/reinforced
-	name = "reinforced hull"
-	damage_cap = HEALTH_WALL_REINFORCED
-	// get a walltype for a ribbed here? for r-wall visual representation?
-	icon = 'icons/turf/walls/upp_grey_ribbed.dmi'
-	icon_state = "uppwall_reinforced"
-
-*/
 
