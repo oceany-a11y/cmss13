@@ -44,6 +44,35 @@
 
 /// WALLS
 
+/turf/closed/wall/paraxis
 
 
+/turf/closed/wall/paraxis/adobe1
+	icon = 'icons/turf/walls/paraxis/adobe.dmi'
+	icon_state = "wall-0"
+
+/turf/closed/wall/paraxis/adobe2
+	icon = 'icons/turf/walls/paraxis/adobe_1.dmi'
+	icon_state = "wall-0"
+
+/turf/closed/wall/paraxis/adobe3
+	icon = 'icons/turf/walls/paraxis/adobe_2.dmi'
+	icon_state = "wall-0"
+
+/turf/closed/wall/paraxis/adobe4
+	icon = 'icons/turf/walls/paraxis/adobe_3.dmi'
+	icon_state = "wall-0"
+
+
+
+
+
+/*/turf/closed/wall/paraxis/adobe/reinforced
+	name = "reinforced hull"
+	damage_cap = HEALTH_WALL_REINFORCED
+	// get a walltype for a ribbed here? for r-wall visual representation?
+	icon = 'icons/turf/walls/upp_grey_ribbed.dmi'
+	icon_state = "uppwall_reinforced"
+
+*/
 
