@@ -72,16 +72,16 @@
 	icon_state = "beachcorner"
 
 /turf/open/paraxis/shore/transition_corner/northwest
-	dir = NORTHEAST
+	dir = EAST
 
 /turf/open/paraxis/shore/transition_corner/southeast
-	dir = SOUTHEAST
+	dir = SOUTH
 
 /turf/open/paraxis/shore/transition_corner/northeast
-	dir = NORTHWEST
+	dir = WEST
 
 /turf/open/paraxis/shore/transition_corner/southwest
-	dir = SOUTHWEST
+	dir = NORTH
 
 
 
@@ -92,15 +92,15 @@
 
 /// WALLS
 
-/turf/closed/wall/paraxis
-
-
 /turf/closed/wall/paraxis/adobe1
 	icon = 'icons/turf/walls/paraxis/adobe_walls.dmi'
 	icon_state = "adobe"
+	walltype = WALL_ADOBE
 
-
-
+/turf/closed/wall/paraxis/adobe_colourable
+	icon = 'icons/turf/walls/paraxis/adobe_walls_colorable.dmi'
+	icon_state = "adobe"
+	walltype = WALL_ADOBE
 
 
 

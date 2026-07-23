@@ -11,16 +11,17 @@
 "ad" = (
 /turf/open/paraxis/rock/rock3,
 /area/event)
-"ae" = (
-/area/event)
 "af" = (
 /obj/effect/overlay/palmtree_r,
-/turf/open/paraxis/rock/rock1,
+/turf/open/auto_turf/paraxis/sand/layer0,
 /area/event)
 "ag" = (
 /turf/closed/wall/rock/brown{
 	color = "#6e6558"
 	},
+/area/event)
+"ah" = (
+/turf/open/floor/hybrisa/tile/asteroidfloor_bigtile,
 /area/event)
 "ai" = (
 /obj/effect/overlay/palmtree_r{
@@ -57,6 +58,33 @@
 /area/event)
 "as" = (
 /turf/open/paraxis/shore/transition_corner/southwest,
+/area/event)
+"at" = (
+/obj/structure/machinery/door/airlock/almayer/secure,
+/turf/open/floor/hybrisa/tile/asteroidwarning_bigtile/west,
+/area/event)
+"au" = (
+/turf/open/auto_turf/paraxis/sand/layer0_mud_alt,
+/area/event)
+"av" = (
+/turf/open/auto_turf/paraxis/sand/layer0_mud,
+/area/event)
+"aw" = (
+/turf/open/auto_turf/paraxis/sand/layer0,
+/area/event)
+"ax" = (
+/turf/closed/wall/paraxis/adobe_colourable{
+	color = "#bbb9b7"
+	},
+/area/event)
+"ay" = (
+/turf/open/paraxis/shore/transition_corner/northeast,
+/area/event)
+"az" = (
+/turf/open/paraxis/shore/transition_corner/southeast,
+/area/event)
+"aA" = (
+/turf/open/auto_turf/paraxis/sand/layer1,
 /area/event)
 "bk" = (
 /obj/structure/surface/table/almayer,
@@ -571,8 +599,8 @@ AN
 AN
 AN
 ac
-AN
-ae
+ac
+ac
 AN
 AN
 AN
@@ -589,9 +617,9 @@ SA
 AN
 AN
 AN
-AN
-AN
-AN
+ac
+ac
+ac
 AN
 AN
 AN
@@ -608,9 +636,9 @@ cI
 AN
 AN
 AN
-ae
-AN
-ae
+ac
+ac
+ac
 AN
 AN
 AN
@@ -623,8 +651,8 @@ br
 ev
 Lc
 ju
-AN
-AN
+az
+ay
 AN
 AN
 AN
@@ -642,8 +670,8 @@ br
 sH
 CU
 hx
-AN
-AN
+as
+an
 AN
 AN
 AN
@@ -816,8 +844,8 @@ ao
 ao
 ao
 am
-ab
-ac
+av
+av
 aa
 aa
 aa
@@ -835,9 +863,9 @@ ar
 ao
 ap
 an
-ab
-ak
-ab
+av
+av
+aw
 aa
 aa
 aa
@@ -855,10 +883,10 @@ aq
 an
 ab
 af
-ab
-ab
+aw
+au
 aa
-ac
+aa
 aa
 aj
 aj
@@ -869,14 +897,14 @@ br
 an
 ak
 ad
-ak
+av
 ab
-al
-ad
-al
-ak
-al
 ab
+av
+au
+aw
+av
+av
 aa
 aa
 aa
@@ -886,58 +914,58 @@ br
 (21,1,1) = {"
 br
 ac
+au
 ab
-ab
-ad
-al
-ag
 al
 al
 al
-ab
-ak
+av
+al
+al
+au
+av
+au
 aa
 aa
 aa
-aj
 br
 "}
 (22,1,1) = {"
 br
 ak
 al
-ak
-ag
+av
+ax
+ax
+at
+ax
+ax
 al
-ag
-ag
 al
-al
-al
-af
-ak
-aa
-aa
-aa
+ac
+ac
+at
+ac
+ac
 br
 "}
 (23,1,1) = {"
 br
-ak
+aA
 ab
 al
-ag
-ag
-ag
-ag
-ag
-ag
+ax
+ah
+ah
+ah
+ax
 al
 al
-ab
 ac
-ab
-aa
+ah
+ah
+ah
+ac
 br
 "}
 (24,1,1) = {"
@@ -945,18 +973,18 @@ br
 al
 al
 ai
-ag
-ag
-ag
-ag
-ag
-al
-al
-ab
+ax
+ah
+ah
+ah
+ax
+au
+av
 ac
+ah
+ah
+ah
 ac
-ac
-aa
 br
 "}
 (25,1,1) = {"
@@ -964,14 +992,14 @@ br
 al
 ag
 ag
-ag
-ag
-ag
-ag
-ag
-al
+ax
+ax
+ax
+ax
+ax
 ak
-ab
+ak
+ac
 ac
 ac
 ac

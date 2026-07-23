@@ -408,3 +408,41 @@
 
 /turf/open/auto_turf/shale/layer2/weedable
 	is_weedable = FULLY_WEEDABLE
+
+
+// Paraxis
+
+
+/turf/open/auto_turf/paraxis/sand
+	name = "white sand"
+	icon = 'icons/turf/floors/auto_paraxis.dmi'
+	icon_state = "white_sand_0"
+	icon_prefix = "white_sand"
+	layer_name = list("ground","sand")
+	desc = "Sand, rocks, pebbles and other assorted beachside flooring."
+
+/turf/open/auto_turf/paraxis/sand/insert_self_into_baseturfs()
+	baseturfs += /turf/open/auto_turf/strata_grass/layer0
+
+/turf/open/auto_turf/paraxis/sand/layer0
+	icon_state = "white_sand_0"
+	bleed_layer = 0
+	variant_prefix_name = "matted grass"
+
+/turf/open/auto_turf/paraxis/sand/layer0_mud
+	icon_state = "white_sand_misc"
+	bleed_layer = 0
+	variant = "mud"
+	variant_prefix_name = "muddy"
+
+/turf/open/auto_turf/paraxis/sand/layer0_mud_alt
+	icon_state = "white_sand_misc_1"
+	bleed_layer = 0
+	variant = "mud_alt"
+	variant_prefix_name = "muddy"
+
+/turf/open/auto_turf/paraxis/sand/layer1
+	icon_state = "white_sand_1"
+	bleed_layer = 1
+
+
